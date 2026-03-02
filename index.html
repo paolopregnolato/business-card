@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Paolo Pregnolato</title>
+
+<link rel="icon" type="image/png" href="SE_Logo_Color_RGB.png">
+
+<style>
+
+*{
+box-sizing:border-box;
+}
+
+body{
+margin:0;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+background:linear-gradient(135deg,#4C1D95,#7C3AED,#A78BFA);
+background-size:200% 200%;
+animation:gradientMove 8s ease infinite;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+
+@keyframes gradientMove{
+0%{background-position:0% 50%;}
+50%{background-position:100% 50%;}
+100%{background-position:0% 50%;}
+}
+
+.card{
+background:rgba(255,255,255,0.15);
+backdrop-filter:blur(20px);
+-webkit-backdrop-filter:blur(20px);
+border-radius:20px;
+padding:40px 30px;
+width:90%;
+max-width:420px;
+text-align:center;
+color:white;
+box-shadow:0 20px 40px rgba(0,0,0,0.3);
+}
+
+.logo{
+width:150px;
+background: white;
+margin:12px 0;
+padding:16px;
+border-radius:12px;
+}
+
+h1{
+margin:10px 0 5px 0;
+font-weight:600;
+}
+
+.role{
+opacity:0.85;
+margin-bottom:30px;
+}
+
+.btn{
+display:block;
+margin:12px 0;
+padding:16px;
+border-radius:12px;
+text-decoration:none;
+font-weight:600;
+background:white;
+color:#4C1D95;
+transition:all 0.25s ease;
+}
+
+.btn:hover{
+transform:translateY(-3px);
+box-shadow:0 10px 20px rgba(0,0,0,0.2);
+}
+
+.footer{
+margin-top:25px;
+font-size:12px;
+opacity:0.7;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+<img src="SE_Logo_Color_RGB.png" class="logo" alt="Logo">
+
+<div class="role">Siemens Energy Transformers S.r.l.</div>
+<h1>Paolo Pregnolato</h1>
+<div class="role">EQS Manager</div>
+
+<a class="btn" href="paolo.vcf">📇 Salva contatto</a>
+<a class="btn" href="tel:+393357647771">📞 Chiama</a>
+<a class="btn" href="mailto:paolo.pregnolato@siemens-energy.com">✉️ Email</a>
+<a class="btn" href="https://www.linkedin.com/in/paolo-pregnolato-3842043b">LinkedIn</a>
+
+<div class="footer">
+Smart NFC Digital Card
+</div>
+
+</div>
+
+</body>
+</html>
